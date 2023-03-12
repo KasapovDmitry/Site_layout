@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Site_layout</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  </head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header header--main">
+  <div class="container header__container">
+    <a href="#" class="logo">
+      <img src="img/logo.svg" alt="Createx Logo">
+    </a>
+    <nav class="nav header__nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">News</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
+        </ul>
+    </nav>
+    <div class="header-contacts">
+      <a href="tel:4055550128" class="header-contacts__link contacts-link contacts-link--call">
+        <span class="contacts-link__caption">Call us</span>
+        <span class="contacts-link__value">(405) 555-01-28</span>
+      </a>
+      <a href="mailto:hello@createx.com" class="header-contacts__link contacts-link contacts-link--mail">
+        <span class="contacts-link__caption">Talk to us</span>
+        <span class="contacts-link__value">hello@createx.com</span>
+      </a>
+
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero">
+    <div class="container">
+        <div class="hero__content">
+            <h1 class="main-title main-title--home">Create<span>x</span> Construction</h1>
+            <p class="main-descr main-descr--home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum similique modi ducimus libero ab minima exercitationem rerum repellat magnam tempore facilis magni facere, inventore quo quia beatae eaque quibusdam error.</p>
+            <div class="hero__btns">
+                <button class="btn-reset btn btn--stroke btn--stroke-light">Lern more about us</button>
+                <button class="btn-reset btn btn--fill">Submit request</button>
+            </div>
+        </div>
+    </div>
+</section>
+      <section class="about-section section-offset">
+    <div class="container">
+        <h2 class="title title--center">We are Createx Construction Bureau</h2>
+        <p class="descr descr--center">We are rightfully considered to be the best construction company in the USA.</p>
+        <div class="video-block">
+            <button class="btn-reset video-block__play" aria-label="Play video">
+                <svg>
+                    <use xlink:href="img/sprite.svg#play"></use>
+                </svg>
+            </button>
+            <button class="btn-reset video-block__muted" aria-label="Mute video">
+                <svg>
+                    <use xlink:href="img/sprite.svg#mute"></use>
+                </svg>
+            </button>
+            <video class="video-block__content" src="about-video.mp4" muted loop preload="metadata"></video>
+        </div>
+    </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container"></div>
+</footer>
+<script defer src="js/main.js"></script>
+
+  </div>
+</body>
+
+</html>
